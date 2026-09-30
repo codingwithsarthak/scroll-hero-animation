@@ -129,7 +129,7 @@ function App() {
         />
         <img
           ref={carImageRef}
-          src="/car-hero.jpg"
+          src={`${import.meta.env.BASE_URL}car-hero.jpg`}
           alt="A performance sports car on an open road"
           className="relative h-[clamp(17rem,47vh,35rem)] w-full object-cover object-[center_57%] opacity-[0.92] [mask-image:linear-gradient(to_bottom,black_79%,transparent_100%)]"
         />
